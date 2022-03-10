@@ -28,7 +28,7 @@ export default {
 
 <style scope>
 .fas {
-  color: red;
+  color: #ff375f;
 }
 .task {
   background: #f4f4f4;
@@ -37,7 +37,7 @@ export default {
   cursor: pointer;
 }
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 5px solid #34c759 ;
 }
 .task h3 {
   display: flex;

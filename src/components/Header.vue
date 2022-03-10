@@ -23,7 +23,7 @@ export default {
         <Button 
         @btn-click="$emit('toggle-add-task')" 
         :text="showAddTask ? 'Close' : 'Add task'" 
-        :color="showAddTask ? 'red' : 'green'" 
+        :color="showAddTask ? '#ff375f' : '#34c759 '" 
         />
     </header>
 </template>

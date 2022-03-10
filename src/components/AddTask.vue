@@ -12,7 +12,7 @@ export default {
         onSubmit(e) {
             e.preventDefault();
 
-            if(!this.text || !this.date) {
+            if(!this.text || !this.day) {
                 alert('Please fill in all fields')
                 return
             }
@@ -47,7 +47,7 @@ export default {
       <input
         type="text"
         name="day"
-        v-model="date"
+        v-model="day"
         placeholder="Add Day & Time"
       />
     </div>

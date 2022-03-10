@@ -36,19 +36,19 @@ export default {
     this.tasks = [
       {
         id: 1,
-        text: 'Tell Jerry she fine',
-        day: 'March 1st at 2:30pm',
+        text: 'Eat my guacamole 🥑',
+        day: 'March 11th at 2:30pm',
         reminder: true,
       },
       {
         id: 2,
-        text: 'Go to the gym with Jerry',
+        text: 'Go to the gym 💪',
         day: 'March 11th at 4:30pm',
         reminder: true,
       },
       {
         id: 3,
-        text: 'Hug Jerry',
+        text: 'Hug Jerry ❤️',
         day: 'March 12th at 1:00pm',
         reminder: false,
       },
@@ -95,12 +95,12 @@ body {
 }
 .container {
   max-width: 500px;
-  margin: 30px auto;
+  margin: 30% auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
+  margin-top: -30px;
 }
 .btn {
   display: inline-block;
@@ -122,7 +122,6 @@ body {
   transform: scale(0.98);
 }
 .btn-block {
-  display: block;
   width: 100%;
 }
 </style>
